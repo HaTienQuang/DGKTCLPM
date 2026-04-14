@@ -1,9 +1,9 @@
-Title: Write JUnit tests to cover all statements
+Title: Viết các test JUnit để phủ tất cả các câu lệnh
 
-Description:
-- Add JUnit tests that ensure every statement in `NumberCheck.check(int n)` is executed at least once.
-- Specifically ensure the loop is exercised and skipped, and both branches of the `if` are executed.
+Mô tả:
+- Thêm các test JUnit đảm bảo mọi câu lệnh trong `NumberCheck.check(int n)` được thực thi ít nhất một lần.
+- Cụ thể cần đảm bảo vòng lặp được thực thi và cũng có trường hợp vòng lặp bị bỏ qua, và cả hai nhánh của `if` đều được thực thi.
 
-Acceptance criteria:
-- Add tests for `n=0` (loop skipped, sum=0 even), `n=1` (loop runs once, sum=1 odd), `n=2` and `n=3` as needed.
-- Tests are present in `NumberCheckTest.java` and pass locally using a JUnit runner.
+Tiêu chí nghiệm thu:
+- Thêm test cho `n=0` (vòng lặp bị bỏ qua, `sum=0` là chẵn), `n=1` (vòng lặp chạy một lần, `sum=1` là lẻ), `n=2` và `n=3` nếu cần.
+- Các test nằm trong `NumberCheckTest.java` và chạy thành công bằng JUnit trên môi trường cục bộ.

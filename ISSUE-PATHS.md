@@ -1,9 +1,9 @@
-Title: Write JUnit tests to cover all paths
+Title: Viết các test JUnit để phủ tất cả các đường đi
 
-Description:
-- Add JUnit tests that ensure all control-flow paths in `NumberCheck.check(int n)` are executed.
-- Specifically include cases that exercise: loop skipped, loop runs once, loop runs multiple times and both branches of the if.
+Mô tả:
+- Thêm các test JUnit đảm bảo tất cả các đường điều khiển trong `NumberCheck.check(int n)` được thực thi.
+- Cụ thể bao gồm các trường hợp: vòng lặp bị bỏ qua, vòng lặp chạy một lần, vòng lặp chạy nhiều lần, và cả hai nhánh của `if`.
 
-Acceptance criteria:
-- Tests added in `NumberCheckTest.java` cover `n=0`, `n=1`, `n=2`, and `n=3` (or equivalent) to demonstrate different paths.
-- Tests are present and pass using a JUnit runner.
+Tiêu chí nghiệm thu:
+- Các test trong `NumberCheckTest.java` bao gồm `n=0`, `n=1`, `n=2` và `n=3` (hoặc tương đương) để minh họa các đường đi khác nhau.
+- Các test tồn tại và chạy thành công bằng JUnit trên môi trường cục bộ.
