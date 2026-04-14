@@ -8,7 +8,7 @@ public class NumberCheck {
             sum += i;
         }
 
-        // rẽ nhánh (CHỈ 1 if → 2 đường đi)
+        // branching (1 if -> 2 paths)
         if (sum % 2 == 0) {
             return true;
         } else {
