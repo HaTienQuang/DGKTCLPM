@@ -20,7 +20,10 @@ public class NumberCheckTest {
     public void testZero() {
         assertTrue(NumberCheck.check(0)); // sum = 0 (chẵn)
     }
-    public void testZero() {
-        assertTrue(NumberCheck.check(0)); // sum = 0 → chẵn
+
+    // Path coverage: loop runs once (n=1)
+    @Test
+    public void testOne() {
+        assertFalse(NumberCheck.check(1)); // 1 (lẻ)
     }
 }
