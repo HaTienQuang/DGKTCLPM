@@ -1,9 +1,19 @@
 Title: Viết các test JUnit để phủ tất cả các câu lệnh
 
 Mô tả:
-- Thêm các test JUnit đảm bảo mọi câu lệnh trong `NumberCheck.check(int n)` được thực thi ít nhất một lần.
-- Cụ thể cần đảm bảo vòng lặp được thực thi và cũng có trường hợp vòng lặp bị bỏ qua, và cả hai nhánh của `if` đều được thực thi.
+- Thêm các test JUnit để đảm bảo tất cả các câu lệnh trong phương thức NumberCheck.check(int n) được thực thi ít nhất một lần.
+
+Phương thức bao gồm:
+- Khởi tạo biến
+- Vòng lặp
+- Câu lệnh trả về kết quả (return)
+
+Các test cần đảm bảo:
+- Vòng lặp được thực thi (ví dụ: n >= 1)
+- Vòng lặp bị bỏ qua (ví dụ: n = 0)
+- Câu lệnh return được thực thi với cả hai kết quả true và false
 
 Tiêu chí nghiệm thu:
-- Thêm test cho `n=0` (vòng lặp bị bỏ qua, `sum=0` là chẵn), `n=1` (vòng lặp chạy một lần, `sum=1` là lẻ), `n=2` và `n=3` nếu cần.
-- Các test nằm trong `NumberCheckTest.java` và chạy thành công bằng JUnit trên môi trường cục bộ.
+- Có test với các giá trị như n = 0, n = 2 và n = 3 (hoặc tương đương)
+- Tất cả các dòng lệnh được thực thi ít nhất một lần
+- Các test chạy thành công bằng JUnit
